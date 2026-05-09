@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+ <div  class="header">
+             <h1 class="logo">BEAN<span>BOUTIQUE</span></h1>
+             <div class="navbox " id="nav1" >
+              <ul>
+                <li id="home"><a href="../index.html" >Home</a></li>
+                <li><a href="#" id="currentpage" >COFFEE</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="offer.html">Offer</a></li>
+             </ul>
+             </div>
+             <div class="meun-btn">
+              <ul>
+                <li id="bar"><a href="#"><i class="fa-solid fa-bars" style="color: rgb(99, 230, 190);"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+              </ul>
+            </div>
+         </div> 
+         
+
+<div class="section01">
+  <h2>COFFEE SELECTION</h2>
+  <p>Discover our carefully curated selection of premium coffee beans and blends.</p>
+    <button>Shop Now</button>
+</div>
+
+<section id="catalogue" class="coffeemeun">
+  <h2 class="section-title">COFFEE SELECTION</h2>
+
+  <div class="catalog-row">
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/espreso.jpg" alt="Blend 1"></div>
+      <div class="card-body">
+        <h3 class="card-title">Blend 1 — House Espresso</h3>
+        <p class="card-desc">Rich and balanced espresso blend with premium South American beans.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Chocolate, caramel</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Espresso, Moka pot</p>
+        <p class="meta">Roast: Medium • 250g</p>
+        <div class="card-footer">
+           <div class="card-price">$7.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/Cappuccino.jpg" alt="Blend 4"></div>
+      <div class="card-body">
+        <h3 class="card-title">Blend 2 — Cappuccino</h3>
+        <p class="card-desc">Smooth and creamy blend perfect for milk-based coffee drinks.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Chocolate, vanilla</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Cappuccino, Latte</p>
+        <p class="meta">Roast: Medium-Light • 250g</p>
+    <div class="card-footer">
+          <div class="card-price">$8.99</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/macha.jpg" alt="Blend 8"></div>
+      <div class="card-body">
+        <h3 class="card-title">Blend 3 — Matcha Latte</h3>
+        <p class="card-desc">Smooth and earthy green tea blended with milk for a creamy drink.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Grassy, slightly sweet, umami</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Hot or iced latte</p>
+        <p class="meta">Roast: Medium • 250g</p>
+         <div class="card-footer">
+          <div class="card-price">$10.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/iced-latte.jpg" alt="Blend 8"></div>
+      <div class="card-body">
+        <h3 class="card-title">Blend 4 —Iced Latte</h3>
+        <p class="card-desc">Refreshing cold coffee made with espresso and chilled milk.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Light, milky, smooth coffee flavor</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Summer drink, on-the-go refreshment</p>
+        <p class="meta">Roast: Medium • 300g</p>
+         <div class="card-footer">
+          <div class="card-price">$10.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/mocha.jpg" alt="Blend 5"></div>
+      <div class="card-body">
+        <h3 class="card-title">Blend 5 — Dark Velvet</h3>
+        <p class="card-desc">Full-bodied dark roast with rich smoky flavor and a smooth finish.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Cocoa, smoke</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Espresso, French Press</p>
+        <p class="meta">Roast: Dark • 250g</p>
+         <div class="card-footer">
+          <div class="card-price">$6.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/Single Origin — Ethiopia.jpg" alt="Blend 2"></div>
+      <div class="card-body">
+        <h3 class="card-title">Single Origin — Ethiopia</h3>
+        <p class="card-desc">Light roast highlighting floral acidity.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Jasmine, blueberry</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> V60, Chemex</p>
+        <p class="meta">Roast: Light • 200g</p>
+        <div class="card-footer">
+          <div class="card-price">$10.99</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/Sumatra Mandheling.jpg" alt="Powder 3"></div>
+      <div class="card-body">
+        <h3 class="card-title">Instant Blend — Sumatra Mandheling</h3>
+        <p class="card-desc">Deep, earthy coffee with a heavy body.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Herbal, cocoa, spicy finish</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> French press, espresso</p>
+        <p class="meta">Net weight: 100g</p>
+     <div class="card-footer">
+          <div class="card-price">$15.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>   
+      </div>
+    </div>
+
+    
+
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/colombia.jpg" alt="Blend 6"></div>
+      <div class="card-body">
+        <h3 class="card-title">Single Origin — Colombia</h3>
+        <p class="card-desc">Balanced cup with nutty sweetness.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Almond, caramel</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Pour-over, Drip</p>
+        <p class="meta">Roast: Medium • 250g</p>
+         <div class="card-footer">
+          <div class="card-price">$12.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-card" >
+      <div class="card-image"><img src="../Images/Brazil Santos.jpg" alt="Blend 9"></div>
+      <div class="card-body">
+        <h3 class="card-title">Single Origin — Brazil Santos</h3>
+        <p class="card-desc">Smooth and approachable coffee with low acidity.</p>
+        <ul class="notes-list"><li><strong>Tasting notes:</strong> Nuts, chocolate, mild sweetness</li></ul>
+        <p class="brew-methods"><strong>Recommended:</strong> Drip,Espresso </p>
+        <p class="meta">Roast: Medium • 250g</p>
+         <div class="card-footer">
+          <div class="card-price">$12.50</div>
+          <button class="add-to-cart" onclick="addtocart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Replace ../Images/placeholderX.jpg with your images and update text fields as needed -->
+</section>
+
+     <footer>
+    <div class="footercontainer">
+      <!-- <div class="logo">Bean Botique</div> -->
+      <div class="footerbox">
+        <div class="foot1">
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Coffee</a></li>
+          <li><a href="">Equipment</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Offers</a></li>
+        </ul>
+
+        </div>
+        <div class="foot2">
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Support</a></li>
+        </div>
+        <div class="foot3">
+          <h2>Contact Us</h2>
+          <p><i class="fa-solid fa-location-dot"></i> 123 Cherry Street, Yangon, Myanmar</p>
+          <p><i class="fa-solid fa-phone"></i> +95 998- 123-4567</p>
+          <p><i class="fa-solid fa-envelope"></i> info@beanbotique.com</p>
+        </div>
+      </div>
+      <div class="socialicon">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+      </div>
+      <div class="footerbtn">
+        <p>Copyright &copy;2026; Designed by <span>MI THET HTAR THINZAR</span></p>
+      </div>
+    </div>
+    </footer>
+<script>
+  document.getElementById("bar").addEventListener("click", function(){
+            document.getElementById("nav1").classList.toggle("navappear");
+        })
+</script>
+ 
+</body>
+</html>
